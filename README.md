@@ -12,9 +12,8 @@ Follow instructions from https://www.electronjs.org/docs/latest/tutorial/quick-s
 
 2. Create a new folder for our project and initialize it with npm
 
-
-    mkdir my-electron-app && cd my-electron-app
-    npm init
+        mkdir my-electron-app && cd my-electron-app
+        npm init
 
 Entry point is main.js
 
@@ -45,15 +44,15 @@ To execute electron add the following to package.json
 
 4. Start electron app using
 
-    npm start
+        npm start
 
 5. Setup application to be distributed using Electron Forge
 
-    npm install --save-dev @electron-forge/cli
-    npx electron-forge import
+        npm install --save-dev @electron-forge/cli
+        npx electron-forge import
 
 6. Create distributable using
 
-    npm run make
+        npm run make
 
 This will be found in the out/ folder
