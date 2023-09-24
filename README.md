@@ -7,10 +7,11 @@ Follow instructions from https://www.electronjs.org/docs/latest/tutorial/quick-s
 
 1. Install node and npm
 
-    node -v
-    npm -v
+        node -v
+        npm -v
 
 2. Create a new folder for our project and initialize it with npm
+
 
     mkdir my-electron-app && cd my-electron-app
     npm init
