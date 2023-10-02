@@ -1,40 +1,18 @@
-<!--index.html-->
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
-    <title>RosettaLab - Test Area</title>
-    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <title>Web Bluetooth API</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using Node.js <span id="node-version"></span>,
-    Chromium <span id="chrome-version"></span>,
-    and Electron <span id="electron-version"></span>.
+    <h1>Web Bluetooth API</h1>
 
-
-    <!--  Dark mode -->
-    <p>Current theme source: <strong id="theme-source">System</strong></p>
-    <button id="toggle-dark-mode">Toggle Dark Mode</button>
-    <button id="reset-to-system">Reset to System Theme</button>
-    <!-- End dark mode -->
-
-    <hr>
-    <a href='preference.html'>Preferences</a>
-
-    <hr>
-    <!-- Bluetooth -->
     <button id="clickme">Test Bluetooth</button>
     <button id="cancel">Cancel Bluetooth Request</button>
 
-    <p>Currently selected bluetooth device: <strong id="device-name"></strong></p>
-    <!-- End Bluetooth -->
+    <p>Currently selected bluetooth device: <strong id="device-name""></strong></p>
 
-    <!-- You can also require other files to run in this process -->
-    <script src="../scripts/renderer.js"></script>
+    <script src="./renderer.js"></script>
   </body>
 </html>
-
